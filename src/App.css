@@ -1,0 +1,24 @@
+/* Định nghĩa animation cho gradient */
+@keyframes gradient-motion {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Lớp CSS cho background chuyển động */
+.background-motion {
+  background: linear-gradient(45deg, #ff6ec7, #ffcd00, #3b87f2, #00ff90); /* Gradient với nhiều màu sắc */
+  background-size: 400% 400%; /* Tăng kích thước background để tạo hiệu ứng di chuyển */
+  animation: gradient-motion 10s ease infinite; /* Tạo animation với thời gian 10 giây và lặp lại vô tận */
+  width: 100vw; /* Chiều rộng nền bằng chiều rộng màn hình */
+  height: 100vh; /* Chiều cao nền bằng chiều cao màn hình */
+  position: absolute; /* Đảm bảo nền phủ toàn màn hình */
+  top: 0;
+  left: 0;
+}
