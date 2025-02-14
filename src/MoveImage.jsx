@@ -89,7 +89,7 @@ export const MoveImage = () => {
                     }}
                 >
                     <img
-                        src="../src/assets/istockphoto-1347689822-612x612__1_-removebg-preview.png"
+                        src="/public/assets/istockphoto-1347689822-612x612__1_-removebg-preview.png"
                         style={{ width: "300px" }}
                         alt="Gift Box"
                     />
@@ -111,7 +111,7 @@ export const MoveImage = () => {
                         }}
                     >
                         <img
-                            src="../src/assets/istockphoto-1347689822-612x612-removebg-preview__1_-removebg-preview.png"
+                            src="/public/assets/istockphoto-1347689822-612x612-removebg-preview__1_-removebg-preview.png"
                             style={{ width: "200px" }}
                             alt="Gift Box Lid"
                         />
@@ -136,7 +136,7 @@ export const MoveImage = () => {
             {areImagesVisible && (
                 <>
                     <motion.img
-                        src="../src/assets/1.jpg"
+                        src="/public/assets/1.jpg"
                         alt="Image 1"
                         style={{
                             position: "absolute",
@@ -150,7 +150,7 @@ export const MoveImage = () => {
                         transition={{ type: "spring", stiffness: 30, duration: 1.5 }} // Giảm stiffness và thời gian
                     />
                     <motion.img
-                        src="../src/assets/2.jpg"
+                        src="/public/assets/2.jpg"
                         alt="Image 2"
                         style={{
                             position: "absolute",
@@ -165,7 +165,7 @@ export const MoveImage = () => {
                         transition={{ type: "spring", stiffness: 30, duration: 1.5 }} // Giảm stiffness và thời gian
                     />
                     <motion.img
-                        src="../src/assets/3.jpg"
+                        src="/public/assets/3.jpg"
                         alt="Image 3"
                         style={{
                             position: "absolute",
