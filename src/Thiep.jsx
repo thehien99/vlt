@@ -8,7 +8,7 @@ export const GreetingCard = () => {
             transition={{ duration: 1, delay: 1 }}
             style={{
                 position: "absolute",
-                bottom: "60%",
+                bottom: "65%",
                 left: "39%",
                 transform: "translateX(-50%)",
                 backgroundColor: "#ffb8c6",

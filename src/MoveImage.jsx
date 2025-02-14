@@ -140,7 +140,7 @@ export const MoveImage = () => {
                         alt="Image 1"
                         style={{
                             position: "absolute",
-                            top: '330px',
+                            top: '220px',
                             width: "350px",
                             left: "10%",
                             willChange: "transform",  // Tối ưu hóa hiệu suất
@@ -154,7 +154,7 @@ export const MoveImage = () => {
                         alt="Image 2"
                         style={{
                             position: "absolute",
-                            top: '330px',
+                            top: '220px',
                             width: "350px",
                             left: "52%",
                             transform: "translateX(-50%)",
@@ -169,9 +169,9 @@ export const MoveImage = () => {
                         alt="Image 3"
                         style={{
                             position: "absolute",
-                            top: '330px',
+                            top: '220px',
                             width: "280px",
-                            left: "43%",
+                            left: "42.7%",
                             willChange: "transform",  // Tối ưu hóa hiệu suất
                         }}
                         initial={{ y: -100 }} // Vị trí ban đầu của hộp quà từ trên xuống
