@@ -171,7 +171,7 @@ export const MoveImage = () => {
                             position: "absolute",
                             top: '330px',
                             width: "280px",
-                            left: "41%",
+                            left: "43%",
                             willChange: "transform",  // Tối ưu hóa hiệu suất
                         }}
                         initial={{ y: -100 }} // Vị trí ban đầu của hộp quà từ trên xuống
